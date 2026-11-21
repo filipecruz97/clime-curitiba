@@ -24,7 +24,7 @@ Marcar cada item após conferir seu resultado. Executar os testes de contato com
 
 - [x] Executar `php -v` e confirmar PHP 8 ou superior. Versão usada nos testes: 8.3.6.
 - [x] Verificar a sintaxe com `php -l public/index.php` e `node --check public/assets/js/main.js`.
-- [x] Abrir a página no servidor PHP local. Para reproduzir, executar `php -S 127.0.0.1:8000 -t public` e abrir `http://127.0.0.1:8000`.
+- [x] Abrir a página no servidor PHP local. Para reproduzir, executar `php -S 127.0.0.1:8001 -t public` e abrir `http://127.0.0.1:8001`.
 - [x] Clicar em “Solicitar orçamento pelo formulário” e verificar se o link leva à seção certa.
 - [x] Enviar “Pessoa Exemplo”, `(41) 90000-0000` e “Instalação de split”. Conferir a confirmação da simulação.
 - [x] Testar campos vazios e telefone inválido, inclusive com POST direto e com JavaScript desativado.
